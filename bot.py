@@ -11,7 +11,6 @@ TELEGRAM_CHAT_ID = "8694962656"
 # Your tracked wallets with names
 WALLETS = {
     "J3dnz2QDVfiouCjWTXowtX9zpNzVp9eQdnTa1P1xMArB": "CUPSEYY",
-    "D14LJS3n8xwQF3sBja7Yw4k83bn5TR7Xpn5DumF5tMwM": "🔥 Flip Master",
     "2dsHJfXJgXqDGp4EB2GQuGy9RNqwBhTzaiZ8YDBeQ8tb": "Cutie",
     # Add more as needed
 }
