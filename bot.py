@@ -13,6 +13,7 @@ WALLETS = {
     "J3dnz2QDVfiouCjWTXowtX9zpNzVp9eQdnTa1P1xMArB": "CUPSEYY",
     "2dsHJfXJgXqDGp4EB2GQuGy9RNqwBhTzaiZ8YDBeQ8tb": "Cutie",
     "DxM1hfY8FQ8dNGrucuJzhJcF8KRbjk8WBwrgKvQ9spPv": "Resell Calendar",
+
 }
 
 # ========== TELEGRAM ==========
@@ -84,9 +85,13 @@ def process_transaction(tx):
             print(f"Alert sent: {wallet_name} bought {token_address}")
 
 # ========== MAIN ==========
-if __name__ == '__main__':
+@app.route('/')
+def health():
+    return "Bot is running", 200
+
+if name == '__main__':
+    import os
     print("🚀 Wallet Tracker Bot Running...")
     print(f"📊 Tracking {len(WALLETS)} wallets")
-    import os
     port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port) 
+    app.run(host='0.0.0.0', port=port)
