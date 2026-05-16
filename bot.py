@@ -12,7 +12,7 @@ TELEGRAM_CHAT_ID = "8694962656"
 WALLETS = {
     "J3dnz2QDVfiouCjWTXowtX9zpNzVp9eQdnTa1P1xMArB": "CUPSEYY",
     "2dsHJfXJgXqDGp4EB2GQuGy9RNqwBhTzaiZ8YDBeQ8tb": "Cutie",
-    # Add more as needed
+    "DxM1hfY8FQ8dNGrucuJzhJcF8KRbjk8WBwrgKvQ9spPv": "Resell Calendar",
 }
 
 # ========== TELEGRAM ==========
